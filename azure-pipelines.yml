@@ -20,5 +20,6 @@ steps:
     npm install
     ng build --prod
   displayName: 'npm install and build'
+  
 - script: npx ng test --watch=false
   displayName: 'Tests Hangman Karma'
